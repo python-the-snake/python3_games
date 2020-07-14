@@ -3,6 +3,8 @@ from random import randint as ri
 from copy import copy
 
 import cell
+import numba
+
 
 WIDTH = 400
 

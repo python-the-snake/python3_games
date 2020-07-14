@@ -1,6 +1,9 @@
 from uuid import uuid4
 from collections import defaultdict
 
+import numba
+
+
 WAIT = 1  # ms between frames
 
 COLOR_TABLE = defaultdict(lambda: "#ffffff",

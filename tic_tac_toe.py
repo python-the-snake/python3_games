@@ -1,4 +1,5 @@
 from kivy.app import App
+import numba
 
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.gridlayout import GridLayout
